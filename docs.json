@@ -1,0 +1,98 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "aspen",
+  "name": "DCEng Pro",
+  "description": "Documentação da área de membros da DCEng Engenharia: orçamento com base SINAPI, BDI, PDF timbrado, planos, conta e segurança.",
+  "colors": {
+    "primary": "#0287fb",
+    "light": "#0287fb",
+    "dark": "#6cc0ff"
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://pro.dce.eng.br"
+  },
+  "favicon": "/logo/favicon.svg",
+  "navbar": {
+    "links": [
+      {
+        "label": "Área de membros",
+        "href": "https://pro.dce.eng.br/membros"
+      },
+      {
+        "label": "Guias gratuitos",
+        "href": "https://pro.dce.eng.br"
+      },
+      {
+        "label": "Site",
+        "href": "https://dce.eng.br"
+      },
+      {
+        "label": "Contato",
+        "href": "mailto:contato@dce.eng.br"
+      }
+    ]
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Começando",
+        "pages": [
+          "index",
+          "inicio-rapido",
+          "planos"
+        ]
+      },
+      {
+        "group": "Ferramentas",
+        "pages": [
+          "ferramentas/calculadora",
+          "ferramentas/sinapi",
+          "ferramentas/bdi",
+          "ferramentas/comparador-ufs",
+          "ferramentas/pdf-timbrado"
+        ]
+      },
+      {
+        "group": "Conta e assinatura",
+        "pages": [
+          "conta/cadastro-e-acesso",
+          "conta/seguranca",
+          "conta/equipe",
+          "conta/assinatura"
+        ]
+      },
+      {
+        "group": "Conhecimento",
+        "pages": [
+          "conhecimento/cursos-e-comunidade"
+        ]
+      },
+      {
+        "group": "Confiança",
+        "pages": [
+          "limites",
+          "dados/privacidade"
+        ]
+      },
+      {
+        "group": "Ajuda",
+        "pages": [
+          "suporte",
+          "changelog"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "website": "https://dce.eng.br"
+    }
+  },
+  "seo": {
+    "metatags": {
+      "robots": "index, follow"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+---
+title: "BDI"
+description: "Cálculo do BDI pela fórmula do Acórdão 2.622/2013-TCU, com parâmetros por empresa e perfis salvos."
+icon: "percent"
+---
+
+**BDI** é o Benefício e Despesas Indiretas: o percentual que cobre o que não está no custo direto do
+serviço — administração, riscos, tributos e lucro. O DCEng Pro calcula pela fórmula do
+**Acórdão 2.622/2013-TCU** e mostra a memória de cálculo.
+
+## A fórmula aplicada
+
+```
+BDI = [ (1 + AC + S + R + G) × (1 + DF) × (1 + L) ÷ (1 − I) ] − 1
+
+I = PIS + COFINS + ISS + CPRB
+```
+
+| Sigla | Parâmetro |
+|---|---|
+| AC | Administração central |
+| S | Seguros |
+| R | Riscos |
+| G | Garantias |
+| DF | Despesas financeiras |
+| L | Lucro |
+| I | Tributos sobre a receita (PIS, COFINS, ISS e CPRB) |
+
+<Warning>
+  Confira a fórmula e os parâmetros na fonte oficial (Acórdão 2.622/2013-TCU e as orientações
+  vigentes do órgão contratante). O cálculo é apoio; o valor final é decisão do responsável técnico.
+</Warning>
+
+## Parâmetros iniciais
+
+Ao abrir o BDI pela primeira vez, os campos vêm com valores de partida:
+
+| AC | S | R | G | DF | L | PIS | COFINS | ISS | CPRB |
+|---|---|---|---|---|---|---|---|---|---|
+| 4,00% | 0,80% | 1,00% | 0,50% | 1,20% | 8,00% | 0,65% | 3,00% | 3,00% | 0,00% |
+
+São **ponto de partida**, não recomendação. Ajuste ao seu caso: alíquota de ISS do município da obra,
+regime tributário da empresa, necessidade de administração central e o lucro que o negócio exige.
+
+## Faixas publicadas pelo TCU (referência)
+
+| Tipo de obra | Faixa usual |
+|---|---|
+| Construção de edifícios | 13,01% a 22,90% |
+| Construção de rodovias e ferrovias | 14,71% a 27,32% |
+| Redes de abastecimento de água | 16,28% a 27,98% |
+| Redes de esgoto | 16,54% a 27,69% |
+| Fornecimento de materiais e equipamentos | 11,68% a 17,71% |
+| Serviços de engenharia (consultoria e supervisão) | 21,00% a 40,00% |
+
+Faixa fora do usual não é erro automático — é sinal de que a justificativa precisa estar no processo.
+
+## Perfis salvos
+
+Você pode salvar conjuntos de parâmetros com nome ("Obra privada — reforma", "Edital X"). O perfil
+guarda os percentuais e pode ser aplicado a qualquer orçamento, o que evita recalcular a cada
+proposta e mantém o padrão do escritório.
+
+<Tip>
+  Um ponto de BDI errado em obra de R$ 100 mil são R$ 1.000. Revise o perfil uma vez por ano e a
+  cada mudança de regime tributário.
+</Tip>

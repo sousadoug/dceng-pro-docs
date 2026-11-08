@@ -1,0 +1,22 @@
+/* DCEng Pro — ajustes de marca sobre o tema do Mintlify.
+   Cores herdadas de docs.json; nada de sobrescrever layout ou background. */
+
+:root {
+  --dc-navy: #00223d;
+  --dc-blue: #0287fb;
+}
+
+/* títulos com o navy da marca, mantendo contraste nos dois temas */
+h1, h2, h3 {
+  letter-spacing: -0.015em;
+}
+
+/* tabelas mais legíveis em telas de celular: a documentação é lida no telefone */
+table {
+  font-size: 0.925rem;
+}
+
+/* blocos de destaque (aviso técnico) com a cor da marca na borda */
+.callout {
+  border-radius: 10px;
+}

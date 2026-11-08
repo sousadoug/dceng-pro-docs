@@ -1,0 +1,58 @@
+---
+title: "Calculadora de orçamento"
+description: "Como montar a planilha, quais campos entram no PDF e o que cada coluna significa."
+icon: "calculator"
+---
+
+A calculadora é o centro do DCEng Pro. Cada orçamento tem um cabeçalho, uma lista de itens e um
+total.
+
+## Cabeçalho do orçamento
+
+| Campo | Para que serve |
+|---|---|
+| Título | Identifica o orçamento na sua lista. Ex.: "Reforma de fachada — Bloco A". |
+| Cliente | Nome do condomínio, empresa ou pessoa que vai receber a proposta. |
+| Obra / local | Endereço ou identificação do local. |
+| UF da base | Estado usado como referência de preço do SINAPI. |
+| BDI (%) | Percentual aplicado sobre o custo direto. Padrão inicial: 15%. |
+| Regime de encargos | CSD, CCD ou CSE — conforme o tipo de mão de obra. |
+| Validade (dias) | De 1 a 180 dias. Padrão: 30. |
+| Observações | Texto livre que entra no PDF: pagamento, prazo, exclusões. |
+
+<Warning>
+  O BDI inicial de 15% é apenas ponto de partida. O percentual correto depende dos custos indiretos
+  reais da sua empresa — veja [BDI](/ferramentas/bdi).
+</Warning>
+
+## Itens da planilha
+
+Cada linha segue o padrão de orçamento de obra:
+
+| Coluna | Conteúdo |
+|---|---|
+| Item | Numeração automática. |
+| Discriminação | Descrição do serviço ou material. |
+| Un. | Unidade: m², m, un, vb, kg… |
+| Quant. | Quantidade, com vírgula decimal. |
+| Preço unit. | Preço unitário em reais. |
+| Total | Quantidade × preço unitário. |
+
+Há dois tipos de item:
+
+- **Item próprio** — você digita descrição, unidade, quantidade e preço.
+- **Item da base** — busca no SINAPI por código ou descrição e traz o preço da UF e do regime
+  escolhidos (planos Pro e Escritório).
+
+## Bons hábitos
+
+- Agrupe por etapa (serviços preliminares, fachada, impermeabilização, pintura) para o cliente ler.
+- Use descrição com verbo e material: "Aplicação de argamassa de reparo em fissuras, inclusive
+  lixamento" diz mais que "reparo".
+- Deixe as exclusões nas observações. Escopo que não está escrito não está vendido.
+- Guarde a versão enviada. Revisão de orçamento é orçamento novo, não edição silenciosa.
+
+<Tip>
+  O orçamento é documento de trabalho, não proposta assinada. Antes de enviar, confira quantidades,
+  preços e o texto das observações.
+</Tip>

@@ -1,0 +1,53 @@
+---
+title: "Base SINAPI"
+description: "Insumos, composições, regimes de encargos e como ler a memória de cálculo."
+icon: "database"
+---
+
+O DCEng Pro traz a base **SINAPI** (Caixa Econômica Federal e IBGE) dentro da área de membros. Ela é
+a referência usada em orçamento público e aceita também em obra privada.
+
+<Info>
+  A base é atualizada todo mês, a partir da publicação oficial. A competência vigente aparece na
+  própria tela. Se a atualização do mês ainda não estiver publicada, a competência anterior continua
+  no ar — a base nunca fica vazia.
+</Info>
+
+## O que dá para pesquisar
+
+- **Insumos** — materiais, mão de obra e equipamentos, com código, descrição, unidade e preço.
+- **Composições** — serviços com consumo de insumos e composições auxiliares, com custo por unidade.
+- **Por UF** — o preço muda de estado para estado; escolha a UF do orçamento.
+
+## Regimes de encargos
+
+O SINAPI publica custos com três regimes sociais. O regime tem de ser o mesmo do orçamento inteiro:
+
+| Regime | Quando é usado |
+|---|---|
+| **CSD** — desonerado | Obra com desoneração da folha aplicável. |
+| **CCD** — não desonerado | Regime padrão da maior parte das obras privadas. |
+| **CSE** — sem encargos | Serviço com mão de obra já inclusa ou fornecida por terceiro. |
+
+Misturar regimes no mesmo orçamento produz total errado. Escolha um e mantenha.
+
+## Memória de cálculo
+
+Ao abrir uma composição, você vê de onde vem o custo: cada insumo com coeficiente de consumo, unidade
+e preço, mais o custo da composição por unidade. É esse detalhamento que sustenta o preço em uma
+negociação ou em uma auditoria.
+
+## Limites de uso
+
+<Warning>
+  A base SINAPI é **referência de custo**, não preço de venda. Ela não inclui BDI, administração
+  local, mobilização, lucro nem tributos da sua proposta — isso entra pelo [BDI](/ferramentas/bdi) e
+  pela sua análise comercial.
+</Warning>
+
+- Os preços são médias de mercado do período e da UF de referência, sem frete nem condição especial
+  de fornecedor.
+- Composição que não existe na base não é "inventada" pelo sistema: use um item próprio, com
+  composição sua, e registre a origem.
+- Para orçamento público, confira sempre o regime, a competência exigida pelo edital e as regras do
+  órgão antes de entregar.
