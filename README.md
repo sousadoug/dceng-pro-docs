@@ -7,6 +7,7 @@ para profissionais que orçam obra e manutenção predial.
 
 - **Produto:** <https://pro.dce.eng.br>
 - **Área de membros:** <https://pro.dce.eng.br/membros>
+- **Documentação publicada:** <https://docs.dce.eng.br>
 - **Contato:** contato@dce.eng.br
 
 ## O que é este repositório
