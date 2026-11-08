@@ -23,17 +23,16 @@ infraestrutura, dados de clientes ou qualquer material interno.
 ```
 .
 ├── docs.json              # configuração do site (Mintlify)
-├── pages/                 # conteúdo, em MDX
-│   ├── index.mdx          # introdução
-│   ├── inicio-rapido.mdx
-│   ├── planos.mdx
-│   ├── ferramentas/       # calculadora, SINAPI, BDI, comparador, PDF
-│   ├── conta/             # acesso, segurança, equipe, assinatura
-│   ├── conhecimento/      # cursos e comunidade
-│   ├── dados/             # privacidade
-│   ├── limites.mdx
-│   ├── suporte.mdx
-│   └── changelog.mdx
+├── index.mdx              # introdução (página inicial)
+├── inicio-rapido.mdx
+├── planos.mdx
+├── ferramentas/           # calculadora, SINAPI, BDI, comparador, PDF
+├── conta/                 # acesso, segurança, equipe, assinatura
+├── conhecimento/          # cursos e comunidade
+├── dados/                 # privacidade
+├── limites.mdx
+├── suporte.mdx
+├── changelog.mdx
 ├── logo/                  # marca (light, dark e favicon)
 ├── custom.css             # ajustes visuais da marca
 ├── SECURITY.md            # como relatar um problema de segurança
@@ -49,12 +48,10 @@ npm i -g mintlify
 mintlify dev
 ```
 
-Abra `http://localhost:3000`. Outros comandos úteis:
+Abra `http://localhost:3000`.
 
-```bash
-mintlify broken-links   # confere os links internos
-mintlify update         # atualiza a CLI
-```
+Pré-requisito de conteúdo: `docs.json` válido. O arquivo segue o schema oficial
+(`https://mintlify.com/docs.json`); qualquer chave fora do schema impede o build.
 
 ## Publicar
 
