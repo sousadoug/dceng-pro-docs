@@ -11,18 +11,18 @@
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg",
-    "href": "https://pro.dce.eng.br"
+    "href": "https://dceng.pro"
   },
   "favicon": "/logo/favicon.svg",
   "navbar": {
     "links": [
       {
         "label": "Área de membros",
-        "href": "https://pro.dce.eng.br/membros"
+        "href": "https://dceng.pro/membros"
       },
       {
         "label": "Guias gratuitos",
-        "href": "https://pro.dce.eng.br"
+        "href": "https://dceng.pro"
       },
       {
         "label": "Site",
@@ -52,6 +52,27 @@
           "ferramentas/bdi",
           "ferramentas/comparador-ufs",
           "ferramentas/pdf-timbrado"
+        ]
+      },
+      {
+        "group": "Tutoriais",
+        "pages": [
+          "tutoriais/index",
+          "tutoriais/primeiros-passos",
+          "tutoriais/planos-e-limites",
+          "tutoriais/novo-orcamento-assistente",
+          "tutoriais/questionario-guiado",
+          "tutoriais/planilha-de-itens",
+          "tutoriais/base-sinapi",
+          "tutoriais/bdi-guia",
+          "tutoriais/comparador-entre-estados",
+          "tutoriais/cotacao-de-materiais",
+          "tutoriais/documento-e-pdf",
+          "tutoriais/link-de-aprovacao",
+          "tutoriais/equipe-e-permissoes",
+          "tutoriais/cursos-e-comunidade",
+          "tutoriais/assinatura-e-cancelamento",
+          "tutoriais/arquivar-duplicar-revisao"
         ]
       },
       {

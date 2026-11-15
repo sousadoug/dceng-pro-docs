@@ -5,8 +5,8 @@ para profissionais que orçam obra e manutenção predial.
 
 ![DCEng Engenharia](logo/light.svg)
 
-- **Produto:** <https://pro.dce.eng.br>
-- **Área de membros:** <https://pro.dce.eng.br/membros>
+- **Produto:** <https://dceng.pro>
+- **Área de membros:** <https://dceng.pro/membros>
 - **Documentação publicada:** <https://docs.dce.eng.br>
 - **Contato:** contato@dce.eng.br
 

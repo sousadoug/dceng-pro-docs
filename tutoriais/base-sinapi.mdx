@@ -1,0 +1,55 @@
+---
+title: "Base SINAPI: achar a composição e conferir o preço por estado"
+description: "Buscar por código ou descrição, separar insumos de composições, trocar regime e UF, e puxar o item para dentro do orçamento."
+---
+
+> Buscar por código ou descrição, separar insumos de composições, trocar regime e UF, e puxar o item para dentro do orçamento.
+
+**Plano:** Pro · **7 passos** · **7 min** · grupo *Preços*
+
+<Steps>
+  <Step title="Abra a Base SINAPI">
+    No menu, SINAPI. A tela mostra a competência da base carregada e o campo de busca.
+  </Step>
+  <Step title="Escolha a tabela">
+    Composições são os serviços (com mão de obra e insumos); Insumos são material e mão de obra isolados. Busque em Composições quando for orçar serviço.
+  </Step>
+  <Step title="Defina regime e UF">
+    O regime é Com desoneração (CSD), Sem desoneração (SEM) ou Desoneração específica (SED). A UF muda o preço: escolha a do estado da obra, não a do seu escritório.
+  </Step>
+  <Step title="Busque pelo código ou pela descrição">
+    Exemplo: 94273 ou alvenaria de bloco cerâmico. Toque em Pesquisar.
+  </Step>
+  <Step title="Leia a tabela">
+    Cada linha traz código, descrição, unidade e o valor para a UF escolhida. A coluna de comparação aparece quando o código aceita comparação.
+  </Step>
+  <Step title="Compare entre estados">
+    No plano Escritório, toque em comparar na linha para ver o mesmo código em todas as UFs. No Pro o link aparece com cadeado.
+  </Step>
+  <Step title="Leve para o orçamento">
+    Abra o orçamento, etapa Planilha, e digite a descrição no campo O que vai ser feito: as sugestões da base aparecem na lista. Escolha a composição, informe a quantidade e o preço unitário vem da base.
+  </Step>
+</Steps>
+
+## Como saber que deu certo
+
+O item entra na planilha com o código da composição e o preço da base para o regime e a UF do orçamento.
+
+## Dicas de quem usa
+
+- SINAPI é referência de custo, não preço de venda: sobre o custo direto entra o seu BDI.
+- Confira a competência da base antes de citar preço em proposta. Base velha distorce o resultado.
+
+## Se der errado
+
+- **Busca sem resultado** — Tente uma palavra no singular, sem acento, ou o código de 5 dígitos.
+- **A base SINAPI dentro do orçamento está travada** — É recurso do plano Pro. No Gratuito lance o item manual com o preço que você apurou.
+
+## Onde fica no DCEng Pro
+
+- [Abrir Base SINAPI](/membros/login?destino=%2Fmembros%2Fapp%2Fsinapi)
+
+---
+
+Conteúdo de apoio. Cálculos e estimativas devem ser conferidos pelo responsável técnico.
+Versão web: https://dceng.pro/tutoriais/base-sinapi/
